@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2066;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo-container img {
+    height: 100px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin: 0 15px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+    color: #f1c40f;
+}
+
+.banner {
+    background-image: url('https://i.cdn.newsbytesapp.com/images/l116_17421518506018.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    font-size: 30px;
+    
+}
+
+.main-section {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.event {
+    width: 400px;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.event div {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.event .heading {
+    padding: 10px;
+    color: white;
+    background: #0a2066;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.event i {
+    color: red;
+    font-size: 14px;
+}
+
+.event li {
+    margin-bottom: 10px;
+}
+
+marquee {
+    height: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #ddd; 
+}
+
+.calendar-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+}
+
+.event-item {
+    margin-bottom: 15px;
+}
+
+.event-date {
+    font-weight: bold;
+    color: #0a2066;
+}
+
+.event-name {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-top: 20px;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555; 
+    line-height: 1.5;
+}
+
+.achievements {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 100px; 
+}
+
+.achievements .card {
+    margin: 0; 
+}
+
+
+
+.titles{
+    margin-top: 50px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.contact-footer {
+    background-color: #0a2066;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    width: 50%; 
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin: 10px 0;
+}
+
+.contact-item h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.contact-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.contact-form {
+    width: 45%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
